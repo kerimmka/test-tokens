@@ -1,0 +1,12 @@
+            - name: Sync Figma Variables from FigMayo
+  # You may pin to the exact commit or the version.
+  # uses: figmayo/figma-variables@905c2f305c7abcc2f409e8d4f3bfd259f118849f
+  uses: figmayo/figma-variables@v1.0.2
+  with:
+    # GitHub personal access token for authenticating gh CLI.
+    gh-pat: 
+    # FigMayo API Key
+    figmayo-api-key: 
+    # Path to save the figma variables JSON file
+    file-path: 
+          
